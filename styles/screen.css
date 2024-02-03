@@ -68,7 +68,7 @@ p{
 }
 
 h2{
-    background: linear-gradient(45deg, rgb(58, 34, 195) 0%, rgb(231, 255, 53) 100%);
+    background: linear-gradient(45deg, rgb(58, 34, 195) 25%, rgb(231, 255, 53) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -82,7 +82,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #000000;
+    background: #14141f;
     color: #fff;
     text-align: center;
     text-justify: inter-word;
