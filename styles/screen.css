@@ -2,8 +2,10 @@ body {
     font-family: Helvetica, sans-serif;
     color: #EAE8FF;
     background: #2D3142;
-    padding: 0 40px;
+    padding: 0;
+    margin: 0;
     text-align: center;
+    height: 100%;
 }
 
 nav {
@@ -30,21 +32,68 @@ nav ul li a {
     padding: 20px;
     color: #EAE8FF;
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: 1.em;
 }
 
 h1 {
-    font-size: 8em;
-    letter-spacing: -2px;
+    font-size: 5em;
+    letter-spacing: 3px;
+    padding-bottom: 5vh;
+    border-bottom: 1px solid #fff;
 }
 
 h1 strong {
-    background: rgb(34,193,195);
-    background: linear-gradient(45deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    background: rgb(51, 12, 189);
+    background: linear-gradient(45deg, rgb(58, 34, 195) 0%, rgb(231, 255, 53) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-img.about {
+img {
     opacity: 0.5;
+    padding-top: 5vh;
 }
+
+.blogPost{
+    list-style-type: none;
+    text-decoration: none;
+    color: #EAE8FF;
+}
+
+p{
+    line-height: 1.5;
+    margin: 0 50vh;
+    text-align: justify;
+    text-justify: distribute;
+}
+
+h2{
+    background: linear-gradient(45deg, rgb(58, 34, 195) 0%, rgb(231, 255, 53) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.instructions{
+    text-align: center;
+    text-justify: distribute;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000000;
+    color: #fff;
+    text-align: center;
+    text-justify: inter-word;
+    width: 100vw;
+    height: 10vh;
+    margin-top: auto;
+    position: absolute;
+    bottom: 0;
+}
+
+.mainArea{
+    padding-top: 10vh;
+}
+
